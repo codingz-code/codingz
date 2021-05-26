@@ -1,28 +1,26 @@
 package codingz;
 
 /*
- * https://leetcode.com/problems/pascals-triangle/
- * <p>
- * Given an integer numRows, return the first numRows of Pascal's triangle.
- * <p>
- * In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
- *
- * https://github.com/codingz-code/codingz/blob/main/static/PascalTriangleAnimated2.gif
- *
- * <p>
- * Example 1:
- * <p>
- * Input: numRows = 5
- * Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
- * Example 2:
- * <p>
- * Input: numRows = 1
- * Output: [[1]]
- * <p>
- * <p>
- * Constraints:
- * <p>
- * 1 <= numRows <= 30
+  https://leetcode.com/problems/pascals-triangle/
+  
+  Given an integer numRows, return the first numRows of Pascal's triangle.
+  
+  In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+ 
+  https://github.com/codingz-code/codingz/blob/main/static/PascalTriangleAnimated2.gif
+
+  Example 1:
+  
+  Input: numRows = 5
+  Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+  Example 2:
+  
+  Input: numRows = 1
+  Output: [[1]]
+  
+  
+  Constraints:
+    1 <= numRows <= 30
  */
 
 import java.util.ArrayList;
