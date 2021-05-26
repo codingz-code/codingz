@@ -34,6 +34,7 @@ public class PascalTriangle {
 
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
+        // if (numRows == 0) return result; Not needed check the constraints.
         for (int i = 0; i < numRows; i++) {
             List<Integer> tmp = new ArrayList<>();
             for (int j = 0; j < i + 1; j++) {
