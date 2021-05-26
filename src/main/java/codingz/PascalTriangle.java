@@ -1,11 +1,14 @@
 package codingz;
 
-/**
+/*
  * https://leetcode.com/problems/pascals-triangle/
  * <p>
  * Given an integer numRows, return the first numRows of Pascal's triangle.
  * <p>
  * In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+ *
+ * https://github.com/codingz-code/codingz/blob/main/static/PascalTriangleAnimated2.gif
+ *
  * <p>
  * Example 1:
  * <p>
