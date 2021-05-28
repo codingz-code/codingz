@@ -18,7 +18,7 @@ public class ConvertSortedArrayToBinarySearchTree {
             return null;
         int mid = (start + end) / 2;
         TreeNode node = new TreeNode(nums[mid]);
-        node.left = sortedArrayToBST(nums, start, mid);
+        node.left = sortedArrayToBST(nums, start, mid-1);
         node.right = sortedArrayToBST(nums, mid + 1, end);
         return node;
     }
